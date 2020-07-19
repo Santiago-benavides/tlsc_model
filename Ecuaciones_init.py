@@ -28,7 +28,7 @@ def pend(y, t, Rl, L, w, Ud, Uq, Uz, Vpd, Vpq, Vpz, C, R0):
 
 f=50
 w=2*np.pi*f
-Rl=0.5
+Rl=0.1
 L=30.0e-3
 C=2200e-6
 Vpd=120*2**0.5
@@ -40,7 +40,11 @@ Vdc=0
 # Iq=4.3741
 
 #se las considera variables de entrada
-Ud=0.5
+Ud=0.99
+
+
+
+
 Uq=0
 Uz=0
 
