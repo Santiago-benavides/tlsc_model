@@ -40,14 +40,14 @@ Vdc=0
 # Iq=4.3741
 
 #se las considera variables de entrada
-Ud=0.5
+Ud=0.9999
 Uq=0
 Uz=0
 
 #las condiciones iniciales
 y0 = [0,0,0,0,0]
 #el rango de tiempo que se requeire la simulación
-t = np.linspace(0, 10, 10000)
+t = np.linspace(0, 6, 10000)
 #se resuelve el sistema
 sol = odeint(pend, y0, t, args=(Rl, L, w, Ud, Uq, Uz, Vpd, Vpq, Vpz, C, R0))
 
