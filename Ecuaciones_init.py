@@ -44,6 +44,7 @@ Ud=0.9999
 Uq=0
 Uz=0
 
+
 #las condiciones iniciales
 y0 = [0,0,0,0,0]
 #el rango de tiempo que se requeire la simulación
